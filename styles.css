@@ -1,0 +1,83 @@
+@import url(https://fonts.google.com/specimen/Figtree);
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    text-align: left;
+}
+
+.foundations{
+    font-weight: 800;
+    font-size: 25px;
+    color: hsl(0, 0%, 7%);
+    margin: 10px 0px 0px 20px;
+}
+
+.these{
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.greg{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.white-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+    max-width: 375px;
+    height: 500px;
+    border-radius: 4%;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.yellow-box{
+    background-color: hsl(47, 88%, 63%);
+    height: 200px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5%;
+}
+
+.learning{
+    text-align: center;
+    font-weight: 800;
+}
+
+.published{
+    margin: 20px;
+    font-size: 16px;
+}
+
+.illustration-img{
+    
+    height: auto;
+    width: 335px;
+    border-radius: 5%;
+    margin: 20px;
+    
+}
+
+.greg-profile-img{
+    justify-content: left;
+    max-width: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
