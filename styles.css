@@ -13,7 +13,7 @@ body{
     font-weight: 800;
     font-size: 25px;
     color: hsl(0, 0%, 7%);
-    margin: 10px 0px 0px 20px;
+    margin-left: 20px;
 }
 
 .these{
@@ -22,11 +22,14 @@ body{
     color: hsl(0, 0%, 50%);
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 1.5;
 }
 
 .greg{
     font-weight: 800;
     font-size: 16px;
+    margin-top: 33px;
+    margin-left: -5px;
 }
 
 .white-box{
@@ -38,21 +41,20 @@ body{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
     max-width: 375px;
-    height: 500px;
+    height: 550px;
     border-radius: 4%;
     border: 1px solid hsl(0, 0%, 7%);
     box-shadow: 8px 8px 0px 0px hsl(0, 0%, 7%);
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
+    
 
 }
 
 .yellow-box{
     background-color: hsl(47, 88%, 63%);
-    height: 200px;
+    height: 26px;
     width: 100px;
     margin-left: 20px;
+    padding-top: 10px;
     border-radius: 5%;
 }
 
@@ -70,14 +72,26 @@ body{
     
     height: auto;
     width: 335px;
-    border-radius: 5%;
+    border-radius: 4%;
     margin: 20px;
     
 }
 
 .greg-profile-img{
     justify-content: left;
-    max-width: 20px;
+    max-width: 35px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-top: 25px;
+
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-top: 17px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+
 }
